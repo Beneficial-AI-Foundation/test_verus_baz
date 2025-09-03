@@ -1,0 +1,14 @@
+[package]
+name = "test_baz"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.verus]
+verify = true
+
+[dependencies]
+vstd = { git = "https://github.com/verus-lang/verus", branch = "main" }
+
+[[bin]]
+name = "test_false"
+path = "src/test_false.rs"
