@@ -4,7 +4,7 @@ verus! {
 fn baz()
 ensures 2 + 2 == 3
 {
-    assert(2 + 2 == 4);
+    assert(2 + 2 == 5);
 }
 
 fn main() {}
