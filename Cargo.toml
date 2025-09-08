@@ -7,7 +7,7 @@ edition = "2021"
 verify = true
 
 [dependencies]
-vstd = { git = "https://github.com/verus-lang/verus", branch = "main" }
+vstd = { git = "https://github.com/verus-lang/verus", rev = "33c6cec7bd19818e51d2b61f629d5d2484778bed"}
 
 [[bin]]
 name = "test_false"
